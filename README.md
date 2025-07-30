@@ -312,23 +312,13 @@ Connect with your existing tools via API or webhook integrations
 - [Data Processing Agreement](https://mynq.ai/dpa)
 - [Acceptable Use Policy](https://mynq.ai/aup)
 
----
-
-## 🏆 Awards & Recognition
-
-- **2024 AI Innovation Award** - TechCrunch Disrupt
-- **Best B2B SaaS Platform** - Product Hunt
-- **Enterprise AI Solution of the Year** - AI Excellence Awards
-- **Top 50 AI Startups** - CB Insights
 
 ---
 
 ## 📈 Company
 
 **Founded**: 2024  
-**Headquarters**: San Francisco, CA  
-**Team Size**: 50+ AI engineers and product specialists  
-**Funding**: Series A (Stealth Mode)  
+**Headquarters**: Toronto, ON  
 **Mission**: Democratizing AI for businesses of all sizes
 
 ---
