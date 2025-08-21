@@ -47,6 +47,7 @@ We empower businesses to harness the power of AI through intuitive, production-r
 
 ### 🤖 **Custom AI Agents**
 - **Agent Builder Studio** - Create and deploy custom AI agents without coding
+- **Agent Communication** - AWS SQS+SNS powered agent-to-agent messaging
 - **Workflow Automation** - Connect multiple tools for end-to-end process automation
 - **MCP Server Integration** - Model Context Protocol for seamless AI interactions
 
@@ -63,6 +64,7 @@ We empower businesses to harness the power of AI through intuitive, production-r
 ### Backend Infrastructure
 - **Node.js/Express** API server with TypeScript
 - **PostgreSQL** database with Supabase integration
+- **AWS SQS + SNS** for agent communication and messaging
 - **Stripe** for secure payment processing
 - **Multiple LLM providers** (OpenAI, Anthropic, Replicate)
 
@@ -161,6 +163,15 @@ POST /api/v1/voice/create-session
 - **Free Tier**: 100 requests/day
 - **Pro Tier**: 10,000 requests/day
 - **Enterprise**: Custom limits
+
+### Environment Variables
+**AWS Messaging (SQS + SNS):**
+```env
+AWS_REGION=us-east-1
+AWS_SNS_TOPIC_ARN=arn:aws:sns:us-east-1:account:mynq-ai-events
+AWS_ACCESS_KEY_ID=your-aws-access-key
+AWS_SECRET_ACCESS_KEY=your-aws-secret-key
+```
 
 ---
 
